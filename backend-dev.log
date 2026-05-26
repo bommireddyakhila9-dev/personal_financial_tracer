@@ -1,0 +1,16 @@
+
+> budget-buddy-workspace@1.0.0 dev:backend
+> npm --prefix budget-buddy-main/backend run dev
+
+
+> budget-buddy-backend@1.0.0 dev
+> node --watch src/server.js
+
+Backend listening on http://localhost:4000
+Restarting 'src/server.js'
+Backend listening on http://localhost:4000
+Failed running 'src/server.js'. Waiting for file changes before restarting...
+Restarting 'src/server.js'
+Failed running 'src/server.js'. Waiting for file changes before restarting...
+Restarting 'src/server.js'
+Failed running 'src/server.js'. Waiting for file changes before restarting...

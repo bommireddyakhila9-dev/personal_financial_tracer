@@ -1,0 +1,20 @@
+{
+  "name": "budget-buddy-main",
+  "version": "1.0.0",
+  "description": "Project is now split into separate folders:",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npm --prefix frontend run dev",
+    "dev:frontend": "npm --prefix frontend run dev",
+    "dev:backend": "npm --prefix backend run dev",
+    "start": "npm --prefix backend start",
+    "build": "npm --prefix frontend run build",
+    "lint": "npm --prefix frontend run lint",
+    "test": "npm --prefix frontend test",
+    "install:all": "npm --prefix frontend install && npm --prefix backend install"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}

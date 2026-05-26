@@ -1,0 +1,10 @@
+{
+  "name": "budget-buddy-backend-shortcut",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "npm --prefix ../budget-buddy-main/backend run dev",
+    "start": "npm --prefix ../budget-buddy-main/backend start",
+    "install": "npm --prefix ../budget-buddy-main/backend install"
+  }
+}

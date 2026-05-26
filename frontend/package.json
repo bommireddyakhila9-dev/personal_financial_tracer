@@ -1,0 +1,12 @@
+{
+  "name": "budget-buddy-frontend-shortcut",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "npm --prefix ../budget-buddy-main/frontend run dev",
+    "build": "npm --prefix ../budget-buddy-main/frontend run build",
+    "lint": "npm --prefix ../budget-buddy-main/frontend run lint",
+    "test": "npm --prefix ../budget-buddy-main/frontend test",
+    "install": "npm --prefix ../budget-buddy-main/frontend install"
+  }
+}
