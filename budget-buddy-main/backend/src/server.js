@@ -40,6 +40,10 @@ app.get("/health", (_req, res) => {
   res.json({ ok: true });
 });
 
+app.get("/", (_req, res) => {
+  res.json({ ok: true, service: "budget-buddy-backend" });
+});
+
 app.get("/api/expenses", async (_req, res) => {
   try {
     const { data, error } = await supabase
